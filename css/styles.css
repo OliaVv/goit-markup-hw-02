@@ -72,6 +72,7 @@ a {
     font-size: 16px;
     line-height: 1.875;
     font-weight: 700;
+    cursor: pointer;
 }
 .btn:hover,
 .btn:focus {
@@ -114,6 +115,7 @@ font-style: normal;
     font-weight: 500;
     line-height: 1.63;
     background-color: #F5F4FA;
+    cursor: pointer;
 }
 .filter:hover,
 .filter:focus {
