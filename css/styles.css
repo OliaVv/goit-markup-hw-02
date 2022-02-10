@@ -23,9 +23,9 @@ body {
 }
 .logo > span {
     color: var(--accent, #2196f3);}
-.logo-footer > span {
-    color: var(--accent, #2196f3);}
-.logo-footer {
+/* .logo-footer > span {
+    color: var(--accent, #2196f3);} */
+.footer .logo {
     color: var(--white, #ffffff);
   font-size: 26px;
   font-family: 'Raleway', sans-serif;
