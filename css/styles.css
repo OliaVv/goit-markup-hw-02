@@ -69,6 +69,7 @@ a {
 .btn {
     color: var(--white, #ffffff);
     background-color: var(--accent, #2196f3);
+    font-family: inherit;
     font-size: 16px;
     line-height: 1.875;
     font-weight: 700;
@@ -111,12 +112,13 @@ font-style: normal;
     color: rgba(255, 255, 255, 0.6);
 }
 .filter {
+    font-family: inherit;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.63;
     background-color: #F5F4FA;
     cursor: pointer;
-}
+    }
 .filter:hover,
 .filter:focus {
     background-color: var(--accent, #2196f3);
