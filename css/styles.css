@@ -1,0 +1,92 @@
+:root {
+  --main-color: #212121;
+  --second-color: #757575;
+  --accent: #2196f3;
+  --black: #000000;
+  --white: #ffffff;
+  --bcg-color: #e5e5e5;
+  --bcg-color-hero: #2f303a;
+}
+body {
+  color: var(--main-color, #212121)
+  background-color: var(--bcg-color, #e5e5e5);
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+.logo {
+  color: var(--black, #000000);
+  font-size: 26px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+.logo > span {
+    color: var(--accent, #2196f3);}
+.logo-footer > span {
+    color: var(--accent, #2196f3);}
+.logo-footer {
+    color: var(--white, #ffffff);
+  font-size: 26px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.nav-menu {
+    font-weight: 500;
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--accent, #2196f3)
+}
+.contact a {
+    font-weight: 500;
+    color: var(--second-color, #757575);
+}
+.contact-link:hover,
+.contact-link:focus {
+    color: var(--accent, #2196f3);
+}
+.hero, .footer {
+    background-color: var(--bcg-color-hero, ##2f303a);
+    color: var(--white, #ffffff)
+}
+.hero-title {
+    font-size: 44px;
+    font-weight: 900;
+}
+.section-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--main-color, #212121);
+}
+.title {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.section-text {
+    color: var(--second-color, #757575);
+    font-weight: 400;
+}
+.comand-title {
+    font-size: 16px;
+    font-weight: 500;
+}
+.comand-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--second-color, #757575);
+}
+.address {
+font-style: normal;
+    font-weight: 400;
+}
+.adr-link {
+ color: var(--white, #ffffff);
+    }
+.link-smart {
+    color: rgba(255, 255, 255, 0.6);
+}
