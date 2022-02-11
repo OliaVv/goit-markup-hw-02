@@ -12,8 +12,9 @@ body {
   background-color: var(--bcg-color, #e5e5e5);
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  line-height: 1.17;
+  line-height: 1.14;
   font-weight: 400;
+  letter-spacing: 0.03em;
 }
 .logo {
   color: var(--black, #000000);
@@ -40,6 +41,7 @@ a {
 .nav-link{
     color: var(--black, #000000);
     font-weight: 500;
+    letter-spacing: 0.02em;
 }
 
 .nav-link:hover,
@@ -51,6 +53,7 @@ a {
 }
 .contact-link {
     font-weight: 500;
+    letter-spacing: 0.02em;
     color: var(--second-color, #757575);
 }
 .contact-link:hover,
@@ -65,6 +68,9 @@ a {
     font-size: 44px;
     line-height: 1.36;
     font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 .btn {
     color: var(--white, #ffffff);
@@ -73,6 +79,7 @@ a {
     font-size: 16px;
     line-height: 1.875;
     font-weight: 700;
+    letter-spacing: 0.06em;
     cursor: pointer;
 }
 .btn:hover,
@@ -80,12 +87,13 @@ a {
     background-color: #188CE8;
 }
 .section-title {
+    color: var(--main-color, #212121);
     font-size: 36px;
     font-weight: 700;
-    color: var(--main-color, #212121);
+    text-align: center;
 }
 .title {
-    font-weight: 700;
+    font-size: 14px;
     text-transform: uppercase;
 }
 .section-text {
@@ -95,10 +103,12 @@ a {
 .comand-title {
     font-size: 16px;
     font-weight: 500;
+    text-align: center;
 }
 .comand-text {
     font-size: 16px;
     color: var(--second-color, #757575);
+    text-align: center;
 }
 .address {
 font-style: normal;
@@ -128,6 +138,7 @@ font-style: normal;
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
+    letter-spacing: 0.06em;
 }
 .list-text {
     font-size: 16px;
